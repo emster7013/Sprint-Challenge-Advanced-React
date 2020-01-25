@@ -26,7 +26,7 @@ class Data extends Component{
   
       render() {
         return ( 
-          <div>
+            <div data-testid='players'>
             {this.state.players.map(player => (
               <div>
               <h2>Name: {player.name}</h2>

@@ -11,7 +11,6 @@ const Navbar = () => {
 
   return (
     <nav>
-      <h1>Women's World Cup Players</h1>
       <div className="dark-mode__toggle" 
     data-testid="toggle-element">
         <div 
